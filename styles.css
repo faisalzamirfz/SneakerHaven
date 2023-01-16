@@ -1,0 +1,130 @@
+@media only screen and (max-width: 991px) {
+    .navbar-brand{
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+    }
+    .bd-example{
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+  div.scrollmenu {
+    display:flex;
+    justify-content:center;
+  }
+}
+  
+
+.bi-search{
+    color: whitesmoke;
+}
+
+.bg-main{
+    border-radius:0px 0px 30px 30px;
+    max-height:625px;
+    object-fit:cover;
+}
+
+.bd-example{
+    position: relative;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.carousel-indicators button{
+    width: 2rem !important;
+    height: 0.3rem !important;
+    border-radius: 10px !important;
+    border: 0 !important;
+}
+
+.card{
+    border:none;
+    height-max: 100px;
+    font-size:15px;
+    min-height:410px;
+}
+
+.card-body{
+    min-height: 176px;
+    font-size:15px;
+}
+.card-title{
+    font-size:15px;
+}
+
+.navbar{
+    background:rgba(0,0,0,0.85);
+    backdrop-filter:saturate(180%) blur(20px);
+    -webkit-backdrop-filter:saturate(180%) blur(20px);
+    transition: background .44s .2s cubic-bezier(0.52, 0.16, 0.24, 1),height .56s cubic-bezier(0.52, 0.16, 0.24, 1);
+}
+
+#nav-btn{
+    border:none; 
+    background-color: transparent; 
+    color: whitesmoke;
+    padding:5px;
+}
+
+
+div.scrollmenu::-webkit-scrollbar {
+    display: none;
+  }
+  div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding: 2px 25px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+
+
+  .footer-style {
+    background-color: black;
+    padding: 3rem 0;
+    color: #888;
+    font-size: 16px; 
+    
+  }
+      .footer-style .quick-info li a {
+        color: #fff; }
+  
+    .footer-style .footer-menu-wrap {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 2rem !important;
+      }
+  
+      .footer-style .footer-menu li {
+        display: inline-block; }
+  
+    .footerimg{
+      height:300px;
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+    }
+    .footer-style .footer-menu li a {
+      padding: 10px;
+      display: inline-block;
+      color: #fff; }
+
+      iframe{
+        height:170px;
+        width:200px;
+        border-radius:15px;
+      }
+
+.personal-b-inp{
+    border:1px solid black;
+    border-radius:3px;
+}
